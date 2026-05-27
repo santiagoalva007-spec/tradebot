@@ -1,0 +1,57 @@
+
+{
+
+  "max_open_trades": 3,
+
+  "stake_currency": "USDT",
+
+  "stake_amount": 10,
+
+  "tradable_balance_ratio": 0.99,
+
+  "fiat_display_currency": "",
+
+  "dry_run": true,
+
+  "dry_run_wallet": 1000,
+
+  "trading_mode": "spot",
+
+  "exchange": {
+
+    "name": "binance",
+
+    "key": "w3TmOAzxZ9L0hKEqZ52W2q97XWlM8vEfe8fjGGdmihfivwIZmhxVnH4nkNbrvtvH",
+
+    "secret": "uOKtF9Zst9WXIRFlc9U3zMJeImvGIGJpaA7fjAq4CdiegA26ktJvSJY8LEcy2K8r",
+
+    "pair_whitelist": ["BTC/USDT","ETH/USDT","SOL/USDT","XRP/USDT","ADA/USDT"],
+
+    "pair_blacklist": ["BNB/.*"]
+
+  },
+
+  "pairlists": [{"method": "StaticPairList"}],
+
+  "telegram": {
+
+    "enabled": true,
+
+    "token": "8969249718:AAEl9iIdfPTGUN7Zh2YTueh_wSR24GZb9B8",
+
+    "chat_id": "5460887670"
+
+  },
+
+  "api_server": {
+
+    "enabled": false
+
+  },
+
+  "bot_name": "freqtrade",
+
+  "initial_state": "running"
+
+}
+
